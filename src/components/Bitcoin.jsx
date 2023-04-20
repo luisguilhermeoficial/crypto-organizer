@@ -22,7 +22,7 @@ export function Bitcoin() {
                 </p>
             ) : (
                 <p className="text-red-500">
-                    <a href="https:www.coingecko.com/en/coins/bitcoin" className="text-white">BITCOIN </a> 
+                    <a href="https:www.coingecko.com/en/coins/bitcoin" className="text-white">BTC </a> 
                     {bitcoinValue.market_data && bitcoinValue.market_data.price_change_percentage_24h.toFixed(2)}%
                 </p>
             )
